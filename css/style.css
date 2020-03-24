@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #c2c2c2;
+    overflow: hidden;
+}
+
+.wrap {
+    max-width: 96%;
+    margin: 100px auto 100px;
+}
+.main {
+    /*background-color: #9c9c9c;*/
+    position: relative;
+
+}
+.wrap-text {
+
+}
+.bl-text {
+     font-size: 25px;
+     margin-bottom: 100px;
+
+}
+.text-hide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    margin: 0;
+    z-index: -5;
+    opacity: 0;
+}
+.anim {
+    transition: 8s 1s;
+    display: inline-block;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
